@@ -1,1 +1,52 @@
-
+<html
+<style>
+a {
+  text-decoration: none;
+}
+.site {
+  width: auto;
+  height: auto;
+  border: 2px solid rgb(143, 12, 12);
+  padding: auto;
+  background-image: linear-gradient(rgb(13, 76, 112),rgb(143, 12, 12));
+}
+.header {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(143, 12, 12);
+  padding: auto;
+}
+.esquerda {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(143, 12, 12);
+  display: inline;
+  padding: auto;
+}
+.centro {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(143, 12, 12);
+  padding: auto;
+  display: inline;
+  text-align: center;
+}
+.direita {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(143, 12, 12);
+  padding: auto;
+  display: inline;
+}
+.footer {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(143, 12, 12);
+  padding: auto;
+}
+html {
+  overflow: auto;
+  background-color: aquamarine;
+}
+</style>
+</html>
