@@ -15,7 +15,11 @@
       </div>
       <br />
       <div class="esquerda">esquerda</div>
-      <div class="centro">centro</div>
+      <div class="centro">centro
+        <input id="expressão">
+        <button onclick="calcula()">calcular</button>
+        <input id="resultado">
+      </div>
       <div class="direita">direita</div>
       <br /><br />
       <div class="footer">
@@ -77,3 +81,13 @@
   JavaScript para validar as respostas e calcular a pontuação.<br />
   Aprendizado: Manipulação de formulários, lógica de validação e cálculos.<br />
 </p>
+<script>
+  let expressão=document.getElementById('expressao').value;
+
+  function calcula(){
+    try{let resultado= eval(expressão);
+    }
+    document.getElementById('resultado').value = resultado;
+  }
+</script>
+
