@@ -2,37 +2,56 @@
 <html lang="PT-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projetos</title>
-    <link rel="stylesheet" href="style.css" /></head
-  ><br />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
   <body>
     <div class="site">
-      <div class="header">
-        <h1>Projetos</h1>
-      </div>
+      <!-- <div class="header"></div>
+      <div class="esquerda">esquerda</div> -->
       <br />
-      <div class="esquerda">esquerda</div>
-      <div class="centro">centro
-        <input id="expressão">
-        <button onclick="calcula()">calcular</button>
-        <input id="resultado">
+      <div class="centro">
+        <table>
+          <tr>
+            <th><input type="text" /></th>
+          </tr>
+          <tr>
+            <td><input type="button" value="^" /></td>
+            <td><input type="button" value="/" /></td>
+            <td><input type="button" value="*" /></td>
+            <td><input type="button" value="-" /></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="7" /></td>
+            <td><input type="button" value="8" /></td>
+            <td><input type="button" value="9" /></td>
+            <td><input type="button" value="+" /></td>
+          </tr>
+          <tr>
+            <td>
+              <input type="button" value="." />
+              <input type="button" value="=" />
+            </td>
+            <td><input type="button" value="=" /></td>
+            <td><input type="button" value="DEL" /></td>
+          </tr>
+        </table>
       </div>
-      <div class="direita">direita</div>
-      <br /><br />
+      <!-- <div class="direita">direita</div> -->
       <div class="footer">
         <p><b>Sites para buscas</b></p>
         <ul>
-          <li>
+          <!-- <li>
             <a href="https://chatgpt.com/">ChatGPT</a>
-          </li>
+          </li> -->
           <li>
             <a href="https://www.w3schools.com/">W3schools</a>
           </li>
           <li>
-            <a href="https://stackoverflow.com/questions">Stackover  flow</a>
+            <a href="https://stackoverflow.com/questions">Stackover flow</a>
           </li>
           <li>
             <a href="https://getbootstrap.com/docs/">Getbootstrap</a>
@@ -42,6 +61,7 @@
     </div>
   </body>
 </html>
+<h1>Projetos</h1>
 <h2>Minijogos</h2>
 <p aria-setsize="10%">
   1. Jogo da Velha (Tic-Tac-Toe)<br />
@@ -81,13 +101,3 @@
   JavaScript para validar as respostas e calcular a pontuação.<br />
   Aprendizado: Manipulação de formulários, lógica de validação e cálculos.<br />
 </p>
-<script>
-  let expressão=document.getElementById('expressao').value;
-
-  function calcula(){
-    try{let resultado= eval(expressão);
-    }
-    document.getElementById('resultado').value = resultado;
-  }
-</script>
-
