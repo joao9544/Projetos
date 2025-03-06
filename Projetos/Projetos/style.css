@@ -1,0 +1,56 @@
+<html>
+<style>
+a {
+  text-decoration: none;
+}
+table, th, td{
+  border: 2px rgb(88, 3, 114);
+}
+.site {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(143, 12, 12);
+  padding: auto;
+  /* background-image: linear-gradient(rgb(13, 76, 112),rgb(143, 12, 12)); */
+  /* background-image: url(https://cdn.pixabay.com/animation/2023/01/19/17/23/17-23-21-162_512.gif); */
+}
+/* .header {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(143, 12, 12);
+  padding: auto;
+} */
+/* .esquerda {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(143, 12, 12);
+  display: inline;
+  padding: auto;
+} */
+/* .centro {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(143, 12, 12);
+  padding: auto;
+  display: inline;
+  text-align: center;
+} */
+/* .direita {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(143, 12, 12);
+  padding: auto;
+  display: inline;
+} */
+/* .footer {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(143, 12, 12);
+  padding: auto;
+} */
+html {
+  overflow: auto;
+  background-color: aquamarine;
+}
+</style>
+</html>
