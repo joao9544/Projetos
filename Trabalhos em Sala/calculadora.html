@@ -7,10 +7,31 @@
     <title>Document</title>
 </head>
 <style>
+    html,body{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .todo{
         width: 200px;
         height: auto;
         background-color: black;
+        display: table;
+        position: absolute;
+    }
+    .div1{
+        width: 100%;
+        float: left;
+        height: 20%;
+        grid-row: 1;
+    }
+    .div2{
+        width: 100%;
+        float: left;
+        height: 80%;
+        grid-row: 2;
     }
     .tb2{
         width: 100%;
@@ -19,41 +40,106 @@
     .btncal {
         width: 25px;
         height: 25px;
+        margin: 2px;
     }
     .inp{
-        width: 100%;
-        height: 80%;
-        margin: 10px;
-    }
-    td{
-        margin-left: 20px;
+        width: 90%;
+        height: 100%;
+        margin:5px;
     }
 </style>
 <body>
     <div class="todo">
-        <input class="inp" type="text">
-        <table class="tb2">
-            <tr>
-                <td>
-                    <input class="btncal" onclick="" type="button" value="7">
-                </td>
-                <td>
-                    <input class="btncal" onclick="" type="button" value="8">
-                </td>
-                <td>
-                    <input class="btncal" onclick="" type="button" value="9">
-                </td>
-                <td>
-                    <input class="btncal" onclick="" type="button" value="/">
-                </td>
-                <td>
-                    <input class="btncal" onclick="" type="button" value="z">
-                </td>
-                <td>
-                    <input class="btncal" onclick="" type="button" value="c">
-                </td>
-            </tr>
-        </table>
+        <div class="div1">
+            <input id="" class="inp" type="text">
+        </div>    
+        <div class="div2">
+            <table class="tb2">
+                <tr>
+                    <td>
+                        <input class="btncal" onclick="funoi()" type="button" value="7">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="8">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="9">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="/">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="z">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="c">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="4">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="5">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="6">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="x">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="(">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value=")">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="1">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="2">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="3">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="-">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="^">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="**">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="0">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value=",">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="%">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="+">
+                    </td>
+                    <td>
+                        <input class="btncal" onclick="" type="button" value="=">
+                    </td>
+                </tr>
+            </table>
+        </div>    
     </div>
 </body>
 </html>
+<script>
+    const
+    function funoi(){
+
+    }
+</script>
